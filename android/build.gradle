@@ -25,6 +25,8 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
+    namespace "dev.micazi.laravel_flutter_pusher_plus"
+    
     compileSdkVersion 30
 
     compileOptions {
